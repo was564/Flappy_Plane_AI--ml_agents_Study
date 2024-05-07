@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1671580835",
+        "python_version": "3.8.15 (default, Nov 24 2022, 14:38:14) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\was56\\anaconda3\\envs\\UnityMLAgent\\Scripts\\mlagents-learn --resume Plane.yaml --run-id=Plane",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.7.1+cu110",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1671580839"
+    },
+    "total": 4.1647536,
+    "count": 1,
+    "self": 0.007850900000000216,
+    "children": {
+        "run_training.setup": {
+            "total": 0.14293350000000005,
+            "count": 1,
+            "self": 0.14293350000000005
+        },
+        "TrainerController.start_learning": {
+            "total": 4.0139692,
+            "count": 1,
+            "self": 0.0001357999999997972,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 4.0138137,
+                    "count": 1,
+                    "self": 4.0138137
+                },
+                "TrainerController._save_models": {
+                    "total": 1.970000000017791e-05,
+                    "count": 1,
+                    "self": 1.970000000017791e-05
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "Plane": {
+        "checkpoints": [
+            {
+                "steps": 500826,
+                "file_path": "results\\Plane\\Plane\\Plane-500826.onnx",
+                "reward": 145.25,
+                "creation_time": 1671583778.445489,
+                "auxillary_file_paths": [
+                    "results\\Plane\\Plane\\Plane-500826.pt"
+                ]
+            },
+            {
+                "steps": 502429,
+                "file_path": "results\\Plane\\Plane\\Plane-502429.onnx",
+                "reward": 189.875,
+                "creation_time": 1671584833.492577,
+                "auxillary_file_paths": [
+                    "results\\Plane\\Plane\\Plane-502429.pt"
+                ]
+            },
+            {
+                "steps": 620960,
+                "file_path": "results\\Plane\\Plane\\Plane-620960.onnx",
+                "reward": 271.07142857142856,
+                "creation_time": 1671586126.6298318,
+                "auxillary_file_paths": [
+                    "results\\Plane\\Plane\\Plane-620960.pt"
+                ]
+            },
+            {
+                "steps": 625697,
+                "file_path": "results\\Plane\\Plane\\Plane-625697.onnx",
+                "reward": 204.8181818181818,
+                "creation_time": 1671586318.6539264,
+                "auxillary_file_paths": [
+                    "results\\Plane\\Plane\\Plane-625697.pt"
+                ]
+            },
+            {
+                "steps": 700735,
+                "file_path": "results\\Plane\\Plane\\Plane-700735.onnx",
+                "reward": 350.6666666666667,
+                "creation_time": 1671587289.9235096,
+                "auxillary_file_paths": [
+                    "results\\Plane\\Plane\\Plane-700735.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 700735,
+            "file_path": "results\\Plane\\Plane.onnx",
+            "reward": 350.6666666666667,
+            "creation_time": 1671587289.9235096,
+            "auxillary_file_paths": [
+                "results\\Plane\\Plane\\Plane-700735.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
